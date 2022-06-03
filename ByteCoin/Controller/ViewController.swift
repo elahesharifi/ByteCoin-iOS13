@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var currencyPicker: UIPickerView!
     @IBOutlet weak var bitcoinLabel: UILabel!
-    @IBOutlet weak var currencyLabel: UIStackView!
+    @IBOutlet weak var currencyLabel: UILabel!
     
     let coinManager = CoinManager()
     
